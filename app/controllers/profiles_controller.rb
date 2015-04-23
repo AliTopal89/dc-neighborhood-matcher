@@ -25,6 +25,6 @@ class ProfilesController < ApplicationController
   #   	 # @debug_example = response_body.inspect
   #   response_hash = JSON.parse(response_body, symbolize_names: true)
   #   @image_url3 = response_hash[:images][0][:url]
-  # end
+  end
 
 end
