@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rest-client'
+gem 'httparty'
 gem 'pg'
 gem 'devise'
 gem 'pry'

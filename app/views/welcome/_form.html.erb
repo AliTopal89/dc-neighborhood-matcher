@@ -1,0 +1,9 @@
+<%= form_tag '/welcome' do |f| %>
+
+	<p><%= label_tag(:id, "image ID: ") %><%= text_field_tag :id %></p>
+	<p><%= label_tag(:url, "image URL") %><%= text_field_tag :url %></p>
+
+	<pre><%= @response %></pre>
+
+  <p><%= submit_tag "submit" %></p>
+<% end %>

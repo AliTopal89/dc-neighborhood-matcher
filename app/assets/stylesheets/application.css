@@ -63,6 +63,56 @@ h3{
 	width: 80%;
 	padding: 20px;
 	height: 60px;
-  margin: 20px 20px 20px 20px;
+  	margin: 20px 20px 20px 20px;
 	text-decoration: none;
 }
+
+.bgimage{
+    padding: 0 !important;
+    height:200px;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: block;
+    opacity: 0.25;
+    overflow: hidden;
+    border-radius: 2%;
+    filter: brightness(0.3);
+	-webkit-filter: brightness(0.3);
+	-moz-filter: brightness(0.3);
+	-o-filter: brightness(0.3);
+	-ms-filter: brightness(0.3);
+
+}
+.cgimage{
+    padding: 0 !important;
+    height:300px;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: block;
+    opacity: 0.25;
+    overflow: hidden;
+    border-radius: 2%;
+    filter: brightness(0.3);
+	-webkit-filter: brightness(0.4);
+	-moz-filter: brightness(0.3);
+	-o-filter: brightness(0.3);
+	-ms-filter: brightness(0.3);
+
+}
+.dgimage{
+    padding: 0 !important;
+    height:400px;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: block;
+    opacity: 0.25;
+    overflow: hidden;
+    border-radius: 2%;
+    filter: brightness(0.3);
+	-webkit-filter: brightness(0.3);
+	-moz-filter: brightness(0.3);
+	-o-filter: brightness(0.3);
+	-ms-filter: brightness(0.3);
