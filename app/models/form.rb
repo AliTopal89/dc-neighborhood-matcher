@@ -119,11 +119,12 @@ class Form < ActiveRecord::Base
   end
 
   def driving_cost(driving_trips, car_trip_duration)
+    car_trip = car_trip_duration / 60 * 40 #40 mph
     gas = 2.50
-    driving = driving_trips * car_trip_duration * 2.50 * 52
+    driving = driving_trips * gas * car_trip / 25 * 52
     @driving_cost = driving
     return @driving_cost
-  end # this method is not complete yet
+  end # this method is not complete yets
 
 
   def transportation_cost(mass_transit_trips)

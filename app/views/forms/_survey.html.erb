@@ -28,7 +28,7 @@
   <div class="gallery-cell-2">
     <div class="category">
       <h2>Where would you like to live?</h2>
-      <div class="dropdown">
+      <div class="dropdown neighborhood">
       <%= select_tag "neighborhood", options_for_select(@neighborhoods.collect {|n| [n["name"], n.id]}) %>
       </div>
       <h2>How many bedrooms would you like?</h2>
@@ -58,6 +58,7 @@
 
   <div class="gallery-cell-5">
     <div class="category">
+
       <h2>How often will you dine out per week?</h2>
       <%= f.label :dining_out_low, "$" %>
       <div class="dropdown number">
